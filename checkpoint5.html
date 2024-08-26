@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="checkpoint5.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+
+    <main>
+            <!-- Ajoutez plus de produits ici -->
+            <section id="product-list">
+                <div class="product" data-id="1" data-name="bag" data-price="20.00" data-image="images/product1.jpg">
+                    <img src=https://tse4.mm.bing.net/th?id=OIP.7OiZntNTOOBzj6FmJKdH-QHaHa&pid=Api&P=0&h=180" alt="bag">
+                    <h3>product 1:</h3>
+                    <p>$20.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-id="2" data-name="baskets" data-price="30.00" data-image="images/product2.jpg">
+                    <img src="https://montenapodaily.com/wp-content/uploads/2023/01/https___hypebeast.com_image_2023_01_tiffany-co-nike-air-force-1-low-dz1382-001-release-date-2.jpg" alt="baskets">
+                    <h3>product 2</h3>
+                    <p>$30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <!-- Ajoutez plus de produits ici -->
+            </section>
+      <!-- Panier d'achat -->
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <!-- Les articles ajoutés seront affichés ici -->
+            </div>
+            <div id="cart-summary">
+                <p>Total: $<span id="total-price">0.00</span></p>
+                <button id="checkout">Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="checkpoint5.js"></script>
+</body>
+</html>
